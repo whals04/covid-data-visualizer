@@ -84,7 +84,7 @@ def load_config(file_path):
     with open(file_path, 'r') as config_file:
         config_str = config_file.read()
     return config_str
-config = load_config('venv-wikicovid/covid_data_us_config.json')
+config = load_config('covid_data_us_config.json')
 pyg.walk(df_us, env = 'Streamlit', dark = 'dark', spec = config)
 
 # Implementing second pygwalk (NA Data)
@@ -92,5 +92,5 @@ def load_config(file_path):
     with open(file_path, 'r') as config_file:
         config_str1 = config_file.read()
     return config_str1
-config = load_config('venv-wikicovid/covid_data_na_config.json')
+config = load_config('covid_data_na_config.json')
 pyg.walk(df, env = 'Streamlit', dark = 'dark', spec = config)
