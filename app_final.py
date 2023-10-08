@@ -1,6 +1,6 @@
 import pandas as pd
 import requests
-from pygwalker as pyg
+import pygwalker as pyg
 import streamlit as st
 
 # US Data Collection from Wikipedia
