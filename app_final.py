@@ -1,8 +1,3 @@
-pip install pandas
-pip install requests
-pip install pygwalker
-pip install streamlit
-
 import pandas as pd
 import requests
 import pygwalker as pyg
