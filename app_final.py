@@ -1,7 +1,7 @@
-import pandas as pd
-import requests
-import pygwalker as pyg
-import streamlit as st
+from pandas as pd
+from requests
+from pygwalker as pyg
+from streamlit as st
 
 # US Data Collection from Wikipedia
 url = 'https://en.wikipedia.org/wiki/COVID-19_pandemic_in_the_United_States'
